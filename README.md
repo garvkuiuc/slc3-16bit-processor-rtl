@@ -30,7 +30,7 @@ _Signal-Level Debugging & Waveform Analysis_
 
 To verify the internal timing of the 16-bit datapath, I performed cycle-accurate simulations using Vivado. The waveform below illustrates a successful **Instruction Fetch** cycle, showing the precise coordination between the `PC`, `MAR`, and the `GatePC` steering logic.
 
-![Instruction Fetch Waveform](media/fetch_waveform.png)
+<img width="1074" height="464" alt="Instruction Fetch Waveform" src="https://github.com/user-attachments/assets/d29627b0-f31d-45f8-88ab-2478fc99bb39" />
 
 - This trace confirms that the datapath correctly latches the instruction into the `IR` following the mandated wait states required to synchronize with the memory subsystem.
 
